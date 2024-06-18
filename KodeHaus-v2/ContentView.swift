@@ -21,10 +21,28 @@ struct ContentView: View {
                     Label("Home", systemImage: "house.fill")
             }
             
+            ExplorePageView()
+                .tabItem {
+                    Label("Explore Page", systemImage: "rainbow")
+                }
+            
+            InboxView()
+                .tabItem {
+                    Label("Inbox", systemImage: "message.fill")
+                }
+            
+            MyProjectsView()
+                .tabItem {
+                Label("My Projects", systemImage: "wand.and.stars")
+                }
+            
+            
             MyProfileView()
                 .tabItem {
                     Label("My Profile", systemImage: "person.fill")
             }
+            
+            
         }
     }
 }
