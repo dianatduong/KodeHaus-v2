@@ -8,17 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //local and not shared
+    @State private var name = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        TabView {
+            
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house.fill")
+            }
+            
+            MyProfileView()
+                .tabItem {
+                    Label("My Profile", systemImage: "person.fill")
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
+
