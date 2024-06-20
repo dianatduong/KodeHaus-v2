@@ -15,40 +15,40 @@ struct ContentView: View {
     var body: some View {
         
         TabView {
-            
             HomeView()
                 .tabItem {
                     Label("Home", systemImage: "house.fill")
-            }
+                }
             
-            ExplorePageView()
+            MyProfileView()
                 .tabItem {
-                    Label("Explore Page", systemImage: "rainbow")
+                    Label("My Profile", systemImage: "person.fill")
+                }
+        
+            MyProjectsView()
+                .tabItem {
+                    Label("My Projects", systemImage: "wand.and.stars")
                 }
             
             InboxView()
                 .tabItem {
                     Label("Inbox", systemImage: "message.fill")
                 }
-            
-            MyProjectsView()
+        
+            SettingsView()
                 .tabItem {
-                Label("My Projects", systemImage: "wand.and.stars")
+                    Label("Settings", systemImage: "gearshape.fill")
                 }
-            
-            
-            MyProfileView()
-                .tabItem {
-                    Label("My Profile", systemImage: "person.fill")
+        
             }
-            
-            
         }
     }
-}
 
 #Preview {
     ContentView()
 }
+
+
+
 
 

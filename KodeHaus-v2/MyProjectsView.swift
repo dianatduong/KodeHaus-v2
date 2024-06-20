@@ -11,7 +11,10 @@ struct MyProjectsView: View {
     
     var body: some View {
         
-        Text("My Projects")
+        NavigationView {
+            Text("My Projects")
+                .navigationTitle("My Projects")
+        }
     }
 }
 
