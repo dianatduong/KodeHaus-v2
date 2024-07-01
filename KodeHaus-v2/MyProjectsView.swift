@@ -12,8 +12,8 @@ struct MyProjectsView: View {
     var body: some View {
         
         NavigationView {
-            Text("My Projects")
-                .navigationTitle("My Projects")
+            Spacer()
+                .navigationBarTitle("", displayMode: .inline)
         }
     }
 }

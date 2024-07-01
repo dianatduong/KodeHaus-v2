@@ -11,8 +11,8 @@ struct MyProfileView: View {
     
     var body: some View {
         NavigationView {
-            Text("My Profile")
-                .navigationTitle("My Profile")
+            Spacer()
+                .navigationBarTitle("", displayMode: .inline)
         }
     }
 }
