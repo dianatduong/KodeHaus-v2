@@ -12,20 +12,29 @@ struct HomeView: View {
     var body: some View {
         
         NavigationView {
-            ScrollView {
-                VStack() {
-                    Text("")
-                        .font(.system(size: 18))
-                        .bold()
+            
+            ZStack {
+               
+                ScrollView {
+                    
+                    VStack() {
+                        Text("")
+                            .font(.system(size: 18))
+                            .bold()
+                    }
+                    .background(.white)
+                    .frame(maxWidth: .infinity, minHeight: 300, alignment: .leading)
+                    .overlay(
+                       Rectangle()
+                           .frame(height: 10)
+                           .foregroundColor(.lightGray),
+                       alignment: .bottom
+                   )
+                        
                 }
-                .padding(60)
-                .frame(width: 380, height: 250, alignment: .leading)
-                .background(.black)
-                .clipShape(RoundedRectangle(cornerRadius: 12))
             }
+            .navigationTitle("Home")
         }
-        .navigationTitle("Home")
-        .background(.gray)
     }
 }
 
