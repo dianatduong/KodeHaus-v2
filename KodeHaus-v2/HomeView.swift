@@ -10,10 +10,22 @@ import SwiftUI
 struct HomeView: View {
     
     var body: some View {
+        
         NavigationView {
-            Spacer()
-                .navigationTitle("Home")
+            ScrollView {
+                VStack() {
+                    Text("")
+                        .font(.system(size: 18))
+                        .bold()
+                }
+                .padding(60)
+                .frame(width: 380, height: 250, alignment: .leading)
+                .background(.black)
+                .clipShape(RoundedRectangle(cornerRadius: 12))
+            }
         }
+        .navigationTitle("Home")
+        .background(.gray)
     }
 }
 

@@ -42,6 +42,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A370C1A92C387B3A00244764 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A370C1AA2C38802600244764 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A370C1AA2C38802600244764 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		A381EBC92BDED5050006898E = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +76,7 @@
 		A381EBD42BDED5050006898E /* KodeHaus-v2 */ = {
 			isa = PBXGroup;
 			children = (
+				A370C1A92C387B3A00244764 /* Views */,
 				A381EBD52BDED5050006898E /* KodeHaus_v2App.swift */,
 				A381EBD72BDED5050006898E /* ContentView.swift */,
 				A390ADC32C222FCC00CCF0E7 /* HomeView.swift */,
