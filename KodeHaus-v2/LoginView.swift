@@ -23,7 +23,9 @@ struct LoginView: View {
             
             HStack {
                 //Sign Up button
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {
+                    
+                }, label: {
                     Text("Sign Up")
                         .foregroundColor(.white)
                         .fontWeight(.bold)
@@ -37,7 +39,9 @@ struct LoginView: View {
                 
                 
                 //Login button
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {
+                    
+                }, label: {
                     Text("Login")
                         .foregroundColor(.white)
                         .fontWeight(.bold)
