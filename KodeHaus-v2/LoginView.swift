@@ -23,26 +23,32 @@ struct LoginView: View {
             
             HStack {
                 //Sign Up button
-                Text("Sign Up")
-                    .foregroundColor(.white)
-                    .fontWeight(.bold)
-                    .padding()
-                    .frame(width: 175, height: 50)
-                    .background(
-                        RoundedRectangle(cornerRadius: 15)
-                            .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
-                    )
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Sign Up")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .padding()
+                        .frame(width: 175, height: 50)
+                        .background(
+                            RoundedRectangle(cornerRadius: 15)
+                                .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
+                        )
+                })
+                
                 
                 //Login button
-                Text("Login")
-                    .foregroundColor(.white)
-                    .fontWeight(.bold)
-                    .padding()
-                    .frame(width: 175, height: 50)
-                    .background(
-                        RoundedRectangle(cornerRadius: 15)
-                            .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
-                    )
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Login")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .padding()
+                        .frame(width: 175, height: 50)
+                        .background(
+                            RoundedRectangle(cornerRadius: 15)
+                                .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
+                        )
+                })
+                
             }
         }
     }
