@@ -10,8 +10,6 @@ import SwiftUI
 struct LoginView: View {
     
     var body: some View {
-        Text("Hello")
-        
        
         VStack {
             // Logo
@@ -24,16 +22,26 @@ struct LoginView: View {
             
             
             HStack {
-                //sign in button
-                //create an account button
-                Text("Sign in")
+                //Sign Up button
+                Text("Sign Up")
                     .foregroundColor(.white)
                     .fontWeight(.bold)
                     .padding()
                     .frame(width: 175, height: 50)
                     .background(
                         RoundedRectangle(cornerRadius: 15)
-                            .fill(LinearGradient(colors: [red, blue], startPoint: .leading, endPoint: .trailing))
+                            .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
+                    )
+                
+                //Login button
+                Text("Login")
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .padding()
+                    .frame(width: 175, height: 50)
+                    .background(
+                        RoundedRectangle(cornerRadius: 15)
+                            .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
                     )
             }
         }
