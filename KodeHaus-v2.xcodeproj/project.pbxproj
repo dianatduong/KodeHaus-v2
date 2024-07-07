@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A370C1AC2C38807900244764 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370C1AB2C38807900244764 /* SectionView.swift */; };
+		A370C1AE2C3B47A800244764 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370C1AD2C3B47A800244764 /* LoginView.swift */; };
 		A381EBD62BDED5050006898E /* KodeHaus_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A381EBD52BDED5050006898E /* KodeHaus_v2App.swift */; };
 		A381EBD82BDED5050006898E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A381EBD72BDED5050006898E /* ContentView.swift */; };
 		A381EBDA2BDED5070006898E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A381EBD92BDED5070006898E /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		A370C1AB2C38807900244764 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		A370C1AD2C3B47A800244764 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A381EBD22BDED5050006898E /* KodeHaus-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KodeHaus-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A381EBD52BDED5050006898E /* KodeHaus_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodeHaus_v2App.swift; sourceTree = "<group>"; };
 		A381EBD72BDED5050006898E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				A381EBD52BDED5050006898E /* KodeHaus_v2App.swift */,
 				A381EBD72BDED5050006898E /* ContentView.swift */,
 				A390ADC32C222FCC00CCF0E7 /* HomeView.swift */,
+				A370C1AD2C3B47A800244764 /* LoginView.swift */,
 				A390ADC52C2230B900CCF0E7 /* MyProfileView.swift */,
 				A390ADCB2C2234BB00CCF0E7 /* MyProjectsView.swift */,
 				A390ADD12C24EFFE00CCF0E7 /* SettingsView.swift */,
@@ -190,6 +193,7 @@
 				A390ADC42C222FCC00CCF0E7 /* HomeView.swift in Sources */,
 				A390ADC62C2230B900CCF0E7 /* MyProfileView.swift in Sources */,
 				A390ADCC2C2234BB00CCF0E7 /* MyProjectsView.swift in Sources */,
+				A370C1AE2C3B47A800244764 /* LoginView.swift in Sources */,
 				A381EBD82BDED5050006898E /* ContentView.swift in Sources */,
 				A370C1AC2C38807900244764 /* SectionView.swift in Sources */,
 				A390ADD22C24EFFE00CCF0E7 /* SettingsView.swift in Sources */,

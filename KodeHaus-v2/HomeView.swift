@@ -17,6 +17,11 @@ struct HomeView: View {
                
                 ScrollView {
                     
+                    HStack() {
+                        Text("hello")
+                    }
+                    .background(.red)
+                    
                     VStack() {
                         Text("")
                             .font(.system(size: 18))
