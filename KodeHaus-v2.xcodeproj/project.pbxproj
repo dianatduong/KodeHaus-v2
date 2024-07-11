@@ -13,6 +13,7 @@
 		A370C1B32C40A00B00244764 /* PrimaryBtn50.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370C1B22C40A00B00244764 /* PrimaryBtn50.swift */; };
 		A370C1B52C40A07B00244764 /* PrimaryBtn100.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370C1B42C40A07B00244764 /* PrimaryBtn100.swift */; };
 		A370C1B72C40A0D900244764 /* ProfileBtnSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370C1B62C40A0D900244764 /* ProfileBtnSmall.swift */; };
+		A370C1B92C40A16100244764 /* ProfileGhostBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370C1B82C40A16100244764 /* ProfileGhostBtn.swift */; };
 		A381EBD62BDED5050006898E /* KodeHaus_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A381EBD52BDED5050006898E /* KodeHaus_v2App.swift */; };
 		A381EBD82BDED5050006898E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A381EBD72BDED5050006898E /* ContentView.swift */; };
 		A381EBDA2BDED5070006898E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A381EBD92BDED5070006898E /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		A370C1B22C40A00B00244764 /* PrimaryBtn50.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryBtn50.swift; sourceTree = "<group>"; };
 		A370C1B42C40A07B00244764 /* PrimaryBtn100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryBtn100.swift; sourceTree = "<group>"; };
 		A370C1B62C40A0D900244764 /* ProfileBtnSmall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBtnSmall.swift; sourceTree = "<group>"; };
+		A370C1B82C40A16100244764 /* ProfileGhostBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGhostBtn.swift; sourceTree = "<group>"; };
 		A381EBD22BDED5050006898E /* KodeHaus-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KodeHaus-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A381EBD52BDED5050006898E /* KodeHaus_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodeHaus_v2App.swift; sourceTree = "<group>"; };
 		A381EBD72BDED5050006898E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				A370C1B22C40A00B00244764 /* PrimaryBtn50.swift */,
 				A370C1B42C40A07B00244764 /* PrimaryBtn100.swift */,
 				A370C1B62C40A0D900244764 /* ProfileBtnSmall.swift */,
+				A370C1B82C40A16100244764 /* ProfileGhostBtn.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				A381EBD82BDED5050006898E /* ContentView.swift in Sources */,
 				A370C1B32C40A00B00244764 /* PrimaryBtn50.swift in Sources */,
 				A370C1B52C40A07B00244764 /* PrimaryBtn100.swift in Sources */,
+				A370C1B92C40A16100244764 /* ProfileGhostBtn.swift in Sources */,
 				A370C1AC2C38807900244764 /* SectionView.swift in Sources */,
 				A390ADD22C24EFFE00CCF0E7 /* SettingsView.swift in Sources */,
 				A381EBD62BDED5050006898E /* KodeHaus_v2App.swift in Sources */,
