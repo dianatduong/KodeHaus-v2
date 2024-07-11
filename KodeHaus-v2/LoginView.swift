@@ -18,6 +18,7 @@ struct LoginView: View {
         
         VStack {
             // email text field
+          
             // password text fied
             
             
@@ -36,7 +37,6 @@ struct LoginView: View {
                                 .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
                         )
                 })
-                
                 
                 //Login button
                 Button(action: {
