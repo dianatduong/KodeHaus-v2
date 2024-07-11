@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LoginView: View {
     
+    @State private var text: String = ""
+    
     var body: some View {
        
         //HEADER START
@@ -39,13 +41,21 @@ struct LoginView: View {
         .padding(.top, 50)
         //HEADER END
         
+        
+        //FORM FIELD START
         VStack {
             // email text field
-          
+            TextField("Email Address", text: $text)
+                           .padding()
+                           .textFieldStyle(RoundedBorderTextFieldStyle())
+                       
             // password text fied
-            
+            TextField("Enter your Password", text: $text)
+                           .padding()
+                           .textFieldStyle(RoundedBorderTextFieldStyle())
             
             HStack {
+                     
                 //Sign Up button
                 Button(action: {
                     
@@ -56,7 +66,7 @@ struct LoginView: View {
                         .padding()
                         .frame(width: 175, height: 50)
                         .background(
-                            RoundedRectangle(cornerRadius: 15)
+                            RoundedRectangle(cornerRadius: 22)
                                 .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
                         )
                 })
@@ -71,17 +81,23 @@ struct LoginView: View {
                         .padding()
                         .frame(width: 175, height: 50)
                         .background(
-                            RoundedRectangle(cornerRadius: 15)
+                            RoundedRectangle(cornerRadius: 22)
                                 .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
                         )
                 })
                 
             }
+            //FORM FIELD END
+
         }
     }
 }
 
 
-#Preview {
-    LoginView()
+struct LoginView_Previews: PreviewProvider {
+
+    
+    static var previews: some View {
+        LoginView()
+    }
 }
