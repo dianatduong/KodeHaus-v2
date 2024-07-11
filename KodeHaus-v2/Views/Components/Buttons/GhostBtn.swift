@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProfileGhostBtn: View {
+struct GhostBtn: View {
     @Environment(\.colorScheme) var colorScheme
 
     
@@ -30,7 +30,7 @@ struct ProfileGhostBtn: View {
 struct ProfileGhostBtn_Previews: PreviewProvider {
     
     static var previews: some View {
-        ProfileGhostBtn(title: "Create an Account")
+        GhostBtn(title: "Example")
     }
 }
 

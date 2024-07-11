@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProfileBtnSmall: View {
+struct DefaultBtn: View {
     
     var title: LocalizedStringKey
     var color1: Color
@@ -35,5 +35,5 @@ struct ProfileBtnSmall: View {
 }
 
 #Preview {
-    ProfileBtnSmall(title: "Example", color1: Color.magenta, color2: Color.pink)
+    DefaultBtn(title: "Example", color1: Color.magenta, color2: Color.pink)
 }

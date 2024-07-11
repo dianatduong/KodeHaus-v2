@@ -29,5 +29,5 @@ struct PrimaryBtn100: View {
 }
 
 #Preview {
-    PrimaryBtn100(title: "Login", color1: Color.magenta, color2: Color.hotPink)
+    PrimaryBtn100(title: "Example", color1: Color.magenta, color2: Color.hotPink)
 }
