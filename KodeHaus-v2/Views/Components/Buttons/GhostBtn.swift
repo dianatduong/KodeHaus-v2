@@ -21,7 +21,7 @@ struct GhostBtn: View {
             .padding()
             .frame(width:175, height:50)
             .background(
-                RoundedRectangle(cornerRadius: 15)
+                RoundedRectangle(cornerRadius: 22)
                     .stroke(LinearGradient(colors: [Color.magenta, Color.blue], startPoint: .leading, endPoint: .trailing), lineWidth: 3)
             )
     }
