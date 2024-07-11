@@ -20,7 +20,7 @@ struct PrimaryBtn50: View {
             .foregroundColor(.white)
             .fontWeight(.bold)
             .padding()
-            .frame(width: 175, height: 50)
+            .frame(width: 155, height: 50)
             .background(
                 RoundedRectangle(cornerRadius: 22)
                     .fill(LinearGradient(colors: [color1, color2], startPoint: .leading, endPoint: .trailing))

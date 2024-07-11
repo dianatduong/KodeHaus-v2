@@ -17,9 +17,9 @@ struct GhostBtn: View {
         
         Text(title)
             .foregroundColor(colorScheme == .dark ? .white : .magenta)
-            .fontWeight(.semibold)
+            .fontWeight(.bold)
             .padding()
-            .frame(width:175, height:50)
+            .frame(width: 155, height: 40)
             .background(
                 RoundedRectangle(cornerRadius: 22)
                     .stroke(LinearGradient(colors: [Color.magenta, Color.blue], startPoint: .leading, endPoint: .trailing), lineWidth: 3)

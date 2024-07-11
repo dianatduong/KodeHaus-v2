@@ -67,9 +67,9 @@
 		A370C1AA2C38802600244764 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				A370C1B12C409FF800244764 /* Buttons */,
-				A370C1AB2C38807900244764 /* SectionView.swift */,
 				A370C1AF2C4090DC00244764 /* AppName.swift */,
+				A370C1AB2C38807900244764 /* SectionView.swift */,
+				A370C1B12C409FF800244764 /* Buttons */,
 			);
 			path = Components;
 			sourceTree = "<group>";

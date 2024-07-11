@@ -53,9 +53,10 @@ struct LoginView: View {
             HStack {
                      
                 //Sign Up button
+                GhostBtn(title: "Sign Up")
               
                 //Login button
-                
+                DefaultBtn(title: "Login", color1: .magenta, color2: .hotPink)
             }
             //FORM FIELD END
 
@@ -64,10 +65,6 @@ struct LoginView: View {
 }
 
 
-struct LoginView_Previews: PreviewProvider {
-
-    
-    static var previews: some View {
-        LoginView()
-    }
+#Preview {
+    LoginView()
 }
