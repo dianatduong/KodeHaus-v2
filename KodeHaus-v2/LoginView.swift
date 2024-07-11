@@ -45,46 +45,16 @@ struct LoginView: View {
         //FORM FIELD START
         VStack {
             // email text field
-            TextField("Email Address", text: $text)
-                           .padding()
-                           .textFieldStyle(RoundedBorderTextFieldStyle())
+        
                        
             // password text fied
-            TextField("Enter your Password", text: $text)
-                           .padding()
-                           .textFieldStyle(RoundedBorderTextFieldStyle())
+        
             
             HStack {
                      
                 //Sign Up button
-                Button(action: {
-                    
-                }, label: {
-                    Text("Sign Up")
-                        .foregroundColor(.white)
-                        .fontWeight(.bold)
-                        .padding()
-                        .frame(width: 175, height: 50)
-                        .background(
-                            RoundedRectangle(cornerRadius: 22)
-                                .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
-                        )
-                })
-                
+              
                 //Login button
-                Button(action: {
-                    
-                }, label: {
-                    Text("Login")
-                        .foregroundColor(.white)
-                        .fontWeight(.bold)
-                        .padding()
-                        .frame(width: 175, height: 50)
-                        .background(
-                            RoundedRectangle(cornerRadius: 22)
-                                .fill(LinearGradient(colors: [.hotPink, .magenta], startPoint: .leading, endPoint: .trailing))
-                        )
-                })
                 
             }
             //FORM FIELD END
