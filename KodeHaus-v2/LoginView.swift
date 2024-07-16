@@ -51,12 +51,11 @@ struct LoginView: View {
         
             
             HStack {
-                     
                 //Sign Up button
-                GhostBtn(title: "Sign Up")
+                GhostBtn(title: "Sign Up", color1: .magenta, color2: .blue)
               
                 //Login button
-                DefaultBtn(title: "Login", color1: .magenta, color2: .hotPink)
+                PrimaryBtn(title: "Login", color1: .magenta, color2: .hotPink)
             }
             //FORM FIELD END
 

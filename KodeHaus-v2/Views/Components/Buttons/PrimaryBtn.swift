@@ -1,5 +1,5 @@
 //
-//  PrimaryBtnSmall.swift
+//  PrimaryBtn50.swift
 //  KodeHaus-v2
 //
 //  Created by Diana Duong on 7/11/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DefaultBtn: View {
+struct PrimaryBtn: View {
     
     var title: LocalizedStringKey
     var color1: Color
@@ -35,5 +35,5 @@ struct DefaultBtn: View {
 }
 
 #Preview {
-    DefaultBtn(title: "Example", color1: Color.magenta, color2: Color.pink)
+    PrimaryBtn(title: "Example", color1: Color.magenta, color2: Color.pink)
 }
