@@ -18,7 +18,7 @@ struct HomeView: View {
                 ScrollView {
                     
                     HStack() {
-                        Text("hello")
+                        Text("")
                     }
                     .background(.red)
                     
