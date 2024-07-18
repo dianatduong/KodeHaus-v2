@@ -49,6 +49,7 @@ struct LoginView: View {
             CustomTextField(name: "Email Address", color: .magenta, frameHeight: 3)
                        
             // password text fied
+            CustomTextField(name: "Password", color: .magenta, frameHeight: 3)
         
             
             HStack {
@@ -58,10 +59,10 @@ struct LoginView: View {
                 //Login button
                 PrimaryBtn(title: "Login", color1: .magenta, color2: .hotPink)
             }
-            
             //FORM FIELD END
             Spacer()
         }
+        .padding(.top, 30)
     }
 }
 

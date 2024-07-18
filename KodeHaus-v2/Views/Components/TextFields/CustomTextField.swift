@@ -42,10 +42,11 @@ struct CustomTextField: View {
                     .frame(height: frameHeight)
                     .foregroundColor(color)
             }
-            .onAppear {
-                focus = true 
-            }
             .padding()
+            .onAppear {
+                focus = true
+            }
+            
         }
     }
 //}
