@@ -9,11 +9,17 @@ import SwiftUI
 
 struct CustomTextField: View {
     
+    //property wrappers and properties
     @State private var textInput = ""
+    
+    //sets indicator in the first text field
+    @FocusState private var focus: Bool
+
     var name = ""
     var color: Color
     var frameHeight: CGFloat
    // var type: InputFieldType
+    
     
     var body: some View {
         
@@ -30,10 +36,14 @@ struct CustomTextField: View {
                     .onSubmit {
                         print(textInput)
                     }
+                    .focused($focus)
                 
                 Rectangle()
                     .frame(height: frameHeight)
                     .foregroundColor(color)
+            }
+            .onAppear {
+                focus = true 
             }
             .padding()
         }
