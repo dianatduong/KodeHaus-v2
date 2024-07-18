@@ -13,11 +13,11 @@ struct CustomTextField: View {
     var name = ""
     var color: Color
     var frameHeight: CGFloat
-    var type: InputFieldType
+   // var type: InputFieldType
     
     var body: some View {
         
-        if type == .text {
+       // if type == .text {
             
             VStack {
                 
@@ -27,6 +27,9 @@ struct CustomTextField: View {
                     .disableAutocorrection(true)
                     .textFieldStyle(.plain)
                     .multilineTextAlignment(.leading)
+                    .onSubmit {
+                        print(textInput)
+                    }
                 
                 Rectangle()
                     .frame(height: frameHeight)
@@ -35,16 +38,16 @@ struct CustomTextField: View {
             .padding()
         }
     }
-}
+//}
 
 
 #Preview {
     
-    CustomTextField(name: "Email Address", color: Color.magenta, frameHeight: 3,  type: .text)
+    CustomTextField(name: "Email Address", color: Color.magenta, frameHeight: 3)
 }
 
 
-enum InputFieldType {
-    case text
-    case secure
-}
+//enum InputFieldType {
+   // case text
+  //  case secure
+//}

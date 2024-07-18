@@ -46,7 +46,7 @@ struct LoginView: View {
         //FORM FIELD START
         VStack {
             // email text field
-            CustomTextField(name: "Email Address", color: .magenta, frameHeight: 3, type: .text)
+            CustomTextField(name: "Email Address", color: .magenta, frameHeight: 3)
                        
             // password text fied
         
