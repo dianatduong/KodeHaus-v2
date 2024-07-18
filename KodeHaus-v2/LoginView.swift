@@ -41,11 +41,12 @@ struct LoginView: View {
         .padding(.top, 50)
         //HEADER END
         
+        Spacer()
         
         //FORM FIELD START
         VStack {
             // email text field
-        
+            CustomTextField(name: "Email Address", color: .magenta, frameHeight: 3, type: .text)
                        
             // password text fied
         
@@ -57,8 +58,9 @@ struct LoginView: View {
                 //Login button
                 PrimaryBtn(title: "Login", color1: .magenta, color2: .hotPink)
             }
+            
             //FORM FIELD END
-
+            Spacer()
         }
     }
 }
