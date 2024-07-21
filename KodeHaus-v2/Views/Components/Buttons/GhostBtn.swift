@@ -29,7 +29,7 @@ struct GhostBtn: View {
                         .stroke(LinearGradient(colors: [color1, color2], startPoint: .leading, endPoint: .trailing), lineWidth: 3)
                 )
         }
-        .padding(.vertical, 10)
+        .padding(.vertical, 5)
         
             
     }

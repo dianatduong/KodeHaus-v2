@@ -57,8 +57,9 @@ struct LoginView: View {
                 GhostBtn(title: "Sign Up", color1: .magenta, color2: .blue)
               
                 //Login button
-                PrimaryBtn(title: "Login", color1: .magenta, color2: .hotPink)
+                PrimaryBtn(title: "Login", color1: .magenta, color2: .magenta)
             }
+            .padding(.leading, 45)
             //FORM FIELD END
             Spacer()
         }
