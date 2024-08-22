@@ -24,7 +24,7 @@ struct PrimaryBtn: View {
                 .font(.system(size: 16))
                 .foregroundColor(.white)
                 .bold()
-                .frame(width: 155, height: 40)
+                .frame(width: 155, height: 42)
                 .background(LinearGradient(colors: [color1, color2],
                                            startPoint: .leading,
                                            endPoint: .trailing))

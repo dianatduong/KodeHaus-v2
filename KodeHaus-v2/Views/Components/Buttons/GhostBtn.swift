@@ -23,7 +23,7 @@ struct GhostBtn: View {
                 .font(.system(size: 16))
                 .foregroundColor(.white)
                 .bold()
-                .frame(width: 155, height: 40)
+                .frame(width: 155, height: 42)
                 .background(
                     RoundedRectangle(cornerRadius: 22)
                         .stroke(LinearGradient(colors: [color1, color2], startPoint: .leading, endPoint: .trailing), lineWidth: 3)

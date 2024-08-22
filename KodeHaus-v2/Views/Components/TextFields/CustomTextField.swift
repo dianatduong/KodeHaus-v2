@@ -11,13 +11,13 @@ struct CustomTextField: View {
     
     //property wrappers and properties
     @State private var textInput = ""
+ 
     
     //sets indicator in the first text field
-    @FocusState private var focus: Bool
+    @FocusState private var focus: FormFieldFocus?
 
     var name = ""
     var color: Color
-    var frameHeight: CGFloat
    // var type: InputFieldType
     
     
@@ -27,38 +27,61 @@ struct CustomTextField: View {
             
             VStack {
                 
-                TextField(name, text: $textInput)
+                TextField(name1, text: $textInput)
                     .keyboardType(.emailAddress)
                     .textInputAutocapitalization(.none)
                     .disableAutocorrection(true)
                     .textFieldStyle(.plain)
                     .multilineTextAlignment(.leading)
                     .onSubmit {
+                        //prints in console
                         print(textInput)
                     }
-                    .focused($focus)
+                    .focused($focus, equals: .focus1)
+                
+                
                 
                 Rectangle()
-                    .frame(height: frameHeight)
+                    .frame(height: 3)
                     .foregroundColor(color)
             }
             .padding()
             .onAppear {
-                focus = true
+                //set the focus state for the indicator
+                //focus = true
             }
             
         }
     }
 //}
 
+enum FormFieldFocus: Hashable {
+    //Hashable allows the values to be compared to eachother
+    case focus1, focus2
+    
+}
+
 
 #Preview {
     
-    CustomTextField(name: "Email Address", color: Color.magenta, frameHeight: 3)
+    CustomTextField(name: "Email Address", color: Color.magenta)
 }
 
 
 //enum InputFieldType {
    // case text
   //  case secure
+//}
+
+
+
+//TextField(name2, text: $textInput2)
+//keyboardType(.emailAddress)
+//.textInputAutocapitalization(.none)
+//.disableAutocorrection(true)
+//.textFieldStyle(.plain)
+//.multilineTextAlignment(.leading)
+//.onSubmit {
+    //prints in console
+   // print(textInput2)
 //}
