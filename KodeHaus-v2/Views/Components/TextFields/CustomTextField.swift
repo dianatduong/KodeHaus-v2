@@ -27,7 +27,7 @@ struct CustomTextField: View {
             
             VStack {
                 
-                TextField(name1, text: $textInput)
+                TextField(name, text: $textInput)
                     .keyboardType(.emailAddress)
                     .textInputAutocapitalization(.none)
                     .disableAutocorrection(true)

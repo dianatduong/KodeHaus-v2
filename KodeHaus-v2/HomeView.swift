@@ -20,22 +20,7 @@ struct HomeView: View {
                     HStack() {
                         Text("")
                     }
-                    .background(.red)
                     
-                    VStack() {
-                        Text("")
-                            .font(.system(size: 18))
-                            .bold()
-                    }
-                    .background(.white)
-                    .frame(maxWidth: .infinity, minHeight: 300, alignment: .leading)
-                    .overlay(
-                       Rectangle()
-                           .frame(height: 10)
-                           .foregroundColor(.lightGray),
-                       alignment: .bottom
-                   )
-                        
                 }
             }
             .navigationTitle("Home")

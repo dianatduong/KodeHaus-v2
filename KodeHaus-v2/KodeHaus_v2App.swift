@@ -12,7 +12,7 @@ struct KodeHaus_v2App: App {
     var body: some Scene {
         WindowGroup {
 
-            LoginView()
+            MyProfileView(nm: NetworkManager())
         }
     }
 }

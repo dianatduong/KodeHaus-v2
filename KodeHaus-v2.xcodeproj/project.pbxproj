@@ -21,6 +21,8 @@
 		A390ADC82C22321300CCF0E7 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390ADC72C22321300CCF0E7 /* InboxView.swift */; };
 		A390ADCC2C2234BB00CCF0E7 /* MyProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390ADCB2C2234BB00CCF0E7 /* MyProjectsView.swift */; };
 		A390ADD22C24EFFE00CCF0E7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390ADD12C24EFFE00CCF0E7 /* SettingsView.swift */; };
+		A3A6AC302C77D1A000A1AD87 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6AC2F2C77D1A000A1AD87 /* NetworkManager.swift */; };
+		A3A6AC322C77EDBE00A1AD87 /* IconBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6AC312C77EDBE00A1AD87 /* IconBtn.swift */; };
 		A3C152992C47224C00FFE01F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C152982C47224C00FFE01F /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		A390ADC72C22321300CCF0E7 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
 		A390ADCB2C2234BB00CCF0E7 /* MyProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectsView.swift; sourceTree = "<group>"; };
 		A390ADD12C24EFFE00CCF0E7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A3A6AC2F2C77D1A000A1AD87 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A3A6AC312C77EDBE00A1AD87 /* IconBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBtn.swift; sourceTree = "<group>"; };
 		A3C152982C47224C00FFE01F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,7 @@
 			children = (
 				A370C1B22C40A00B00244764 /* PrimaryBtn.swift */,
 				A370C1B82C40A16100244764 /* GhostBtn.swift */,
+				A3A6AC312C77EDBE00A1AD87 /* IconBtn.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 				A390ADC52C2230B900CCF0E7 /* MyProfileView.swift */,
 				A390ADCB2C2234BB00CCF0E7 /* MyProjectsView.swift */,
 				A390ADD12C24EFFE00CCF0E7 /* SettingsView.swift */,
+				A3A6AC2F2C77D1A000A1AD87 /* NetworkManager.swift */,
 				A390ADC72C22321300CCF0E7 /* InboxView.swift */,
 				A381EBE32BDED6EE0006898E /* Model */,
 				A381EBE42BDED6FA0006898E /* View */,
@@ -226,8 +232,10 @@
 				A3C152992C47224C00FFE01F /* CustomTextField.swift in Sources */,
 				A381EBD82BDED5050006898E /* ContentView.swift in Sources */,
 				A370C1B32C40A00B00244764 /* PrimaryBtn.swift in Sources */,
+				A3A6AC322C77EDBE00A1AD87 /* IconBtn.swift in Sources */,
 				A370C1B92C40A16100244764 /* GhostBtn.swift in Sources */,
 				A370C1AC2C38807900244764 /* SectionView.swift in Sources */,
+				A3A6AC302C77D1A000A1AD87 /* NetworkManager.swift in Sources */,
 				A390ADD22C24EFFE00CCF0E7 /* SettingsView.swift in Sources */,
 				A381EBD62BDED5050006898E /* KodeHaus_v2App.swift in Sources */,
 				A390ADC82C22321300CCF0E7 /* InboxView.swift in Sources */,

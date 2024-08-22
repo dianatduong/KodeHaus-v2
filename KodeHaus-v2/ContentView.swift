@@ -24,7 +24,7 @@ struct ContentView: View {
             }
           
             NavigationView {
-                MyProfileView()
+                MyProfileView(nm: NetworkManager())
             }
                 .tabItem {
                     Label("My Profile", systemImage: "person.fill")
